@@ -8,48 +8,37 @@
 <body>
     <header>
         <h1>Formularios</h1>
+        <a href="../index.html">Volver al índice</a>
     </header>
+    <br>
     <form action="https://formspree.io/mpzyeyjz" method="POST" target="_Blank">
-        <label> Nombre
-            <input name="nombre" type="text"/>
-        </label> 
-       
-        <label>Comentarios
-            <textarea cols="50" rows="2" name="comentarios">
-
-            </textarea>
-        </label>
-        <input name="submit" type="submit"/>
-                <input name="reset" type="reset"/>
-        <label>
-            Seleccionar
-            <select>
-                <option value="">uno</option>
-                <option value="">dos</option>
-                <option value="">tres</option>
-            </select>
-        </label>
+             
+        
         <fieldset>
             <legend>Datos Personales</legend>
-            <label> Nombre
+            <label> Nombre:
                 <input name="nombre" required="" type="text"/>
             </label>
-            <label> Apellido
+           
+            <label> Apellido:
                 <input name="apellido" type="text"/>
             </label>
-            <label> Correo electronico
+            <br>
+            <br>
+            <label> Correo electronico:
                 <input name="email" type="text" placeholder="xxxx@xxxxxx.com"/>
             </label>
-            <label>
-                <input name="submit" type="submit" value="Enviar formulario"/>
-            </label>
-            <label>Leer
+            <br>
+            <br>
+            <label>Solo lectura:
                 <input name="leer" type="text" value="Hola" readonly=""/>
             </label>
             <label>
-                Contraseña
+                Contraseña:
                 <input name="password" type="password" />
             </label>
+            <br>
+            <br>
             <label>
                 Femenino
                 <input name="genero" type="radio" />
@@ -59,6 +48,8 @@
                 Masculino 
                 <input name="genero" type="radio" />
             </label>
+            <br>
+            <br>
             <label>
                 Opcion 1
                 <input name="opcion" type="checkbox" />
@@ -74,6 +65,8 @@
                 <input name="opcion" type="checkbox" />
                 
             </label>
+            <br>
+            <br>
             <label>
                 Cantidad
                 <input name="cantidad" type="number" />
@@ -84,6 +77,8 @@
                 <input name="fecha" type="date" />
                 
             </label>
+            <br>
+            <br>
             <label>
                 Semana
                 <input name="semana" type="week" />
@@ -94,26 +89,57 @@
                 <input name="link" type="url" />
                 
             </label>
+            <br>
+            <br>
             <label>
                 Seleccionar Archivos
                 <input name="archivo" type="file" />
                 
             </label>
+            <br>
+            <br>
             <label>
-               rangos
+               Rangos
                 <input name="rango" type="range" min="5" max="50" />
                 
             </label>
+            <br>
+            <br>
             <label>
                 Seleccionar color:
                 <input name="color" type="color"/>
                  
              </label>
+             <br>
+             <br>
              <label>
                 Hola:
                 <input name="hora" type="time"/>
                  
              </label>
+             <br>
+             <br>
+             <label>Comentarios
+                <textarea cols="50" rows="2" name="comentarios">
+    
+                </textarea>           
+               
+            </label>
+            <br>
+            <br>
+            <label>
+                Seleccionar
+                <select>
+                    <option value="">uno</option>
+                    <option value="">dos</option>
+                    <option value="">tres</option>
+                </select> 
+            </label>
+             <br>
+             <br> 
+                <input name="submit" type="submit"/>
+                <input name="reset" type="reset"/>
+       
         </fieldset>
     </form>
 </body>
