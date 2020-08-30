@@ -1,0 +1,55 @@
+* {
+    margin:0;
+
+}
+header {
+    background-color: darkcyan;
+}
+
+section {
+    background-color: rgb(130, 168, 184);
+}
+
+article {
+    background-color: rgb(27, 192, 137);
+}
+footer {
+    background-color: rgb(192, 167, 27);
+}
+h1 {
+    letter-spacing: 1px;
+    text-align:center ;
+}
+.parrafo {
+word-spacing: 5px;
+}
+.parrafo2 {
+ text-transform: uppercase;
+}
+h3 {
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+    text-decoration-style: wavy;
+}
+h4 {
+    text-shadow:2px 3px dodgerblue;
+}
+table {
+    border:2px solid Black;
+}
+td {
+    border-left: 1px dotted orange;
+    border-right: 1px solid green;
+    border-bottom: 1px double blue;
+    border-top: 1px solid hotpink;
+}
+button {
+    border-radius: 20px;
+    border:1px solid red;
+}
+ol li {
+    list-style-type: upper-alpha;
+}
+ul li {
+list-style: circle;
+}

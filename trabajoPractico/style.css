@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+ul li{
+    list-style: none;
+
+}
+#imagen1{
+    width:80vw;
+    height:50vh;
+}
+div imagenes{
+    width:5vw;
+    height:10vh;
+}
+table, th, td{
+    border: solid black 1px;
+    color:orange;
+}

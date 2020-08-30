@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&family=Roboto+Slab&display=swap');
+body{
+    background-color: rgba(224, 224, 224, 0.5);   
+}
+
+h1{
+text-align: center;
+}
+
+input {
+    background-color: rgb(171, 211, 241);
+  
+
+}
+footer {
+text-align: center;
+}

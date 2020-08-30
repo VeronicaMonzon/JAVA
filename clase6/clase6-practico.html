@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+                <title> Clase 6   </title>
+
+    </head>
+    <!--
+        1) Crear archivo externo para los estilos.*
+        2) Colocar las etiquetas semánticas que correspondan.*
+        3) Agregar un background color: #E0E0E0 que tenga 0.5 de opacidad.
+        4) Usar fuentes de Google Fonts.*
+        5) Centrar el titulo principal.*
+        6) Hacer que la barra de navegación nos lleve a cada parte de la página que corresponda.*
+        8) Agregar los types correspondientes a cada input.*
+        9) agregarle estilos a los inputs.*
+        10) pie de pagina centrado.*
+        11) cerrar bien las etiquetas simples, ej: <link />, <meta />, <img />*
+    -->
+    <body>
+        <header>
+            <h1>
+                Welcome!
+            </h1>
+            <nav>
+                <a href="clase6.html">Volver a clase 6</a>
+                <a href="#">
+                    Home
+                </a>
+                <a href="#about">
+                    About
+                </a>
+                <a href="#reg">
+                    Register
+                </a>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <div>
+                    <h2 >
+                        About Us
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <img src="https://picsum.photos/500/370" alt="imagen aleatoria">
+                   
+                </div>
+            </section>
+            <section id="reg">
+                <div >
+                    <form>
+                        <h2 >
+                            Register
+                        </h2>
+                        <br/>
+                        <label>
+                            Name:
+                            <input type="text" name="name" placeholder="Ingrese su nombre" required="" />
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            Last Name:
+                            <input type="text" id="lastname" name="lastiname" placeholder="Ingrese su apellido" required="" />
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            Phone:
+                            <input type="tel"  name="phone" placeholder="Ingrese su teléfono" required="" />
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            Mail:
+                            <input type="email"  name="mail" placeholder="Ingrese su correo" required="" />
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            Password:
+                            <input  name="password" placeholder="Ingrese su contraseña" required="" type="password"/>
+                        </label>
+                        <br>
+                        <br>
+                        <input name="submit" type="submit" value="Sign In"/>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Copyright © all rights reserved.
+            </p>
+        </footer>
+        
+        
+      
+    </body>
+</html>
