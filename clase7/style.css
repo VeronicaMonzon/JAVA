@@ -1,0 +1,60 @@
+/*p { 
+    color:red!important; va a sobreescribir a todos
+  } 
+  
+  #parrafo {
+    color:blue; va a sobreescribir solo a las clases
+  }               pseudoclases y etiquetas
+  .parrafo {      
+    color:green;  va a sobreescribir solo a las etiquetas
+  }                 y pseudoelementos*/
+  p { 
+    color:orange; 
+  } 
+div p{
+    background-color: indigo;
+}  
+/*-------Box Model------*/
+*{
+    margin:0;
+    text-align:"center";
+}
+.margin{
+    background-color: lightcoral;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    /* margin: 15px 20px 5px; top/left y rigth/bottom*/
+}
+.padding{
+    background-color: rgb(188, 240, 128);
+    width:200px;
+    height:150px;
+}
+.border{
+    background-color: #8082f0;
+    width:200px;
+    height:150px; 
+    border: 5px solid black;
+}
+.box-model{
+    background-color: #f080d4;
+    width:200px;
+    height:150px;
+    margin:30px;
+    padding:50px;
+    border:5px solid black;
+}
+.box-sizing{
+    box-sizing: border-box;
+    background-color: #580e46;
+    width:200px;
+    height:150px;   
+    margin:30px;
+    padding:50px;
+    border:5px solid black;
+}
