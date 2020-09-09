@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+	font-family: Montserrat, serif;
+}
+.flex-container {
+	width: 120vh;
+	height: 50vh;
+	background-color: rgb(231, 103, 231);
+	display: flex;
+	flex-direction: row; /* row: valor x defecto | column: hace el eje principal (main axis) sea vertical | row-reverse | column-reverse*/
+	justify-content: space-around; /* alinea los elementos en el eje principal (main axis) */
+
+}
+.flex-item {
+	background-color: orange;
+	width: 10vw;
+	height: 15vh;
+}
+.flex-item2 {
+	background-color: tomato;
+	width: 10vw;
+	height: 15vh;
+}
+.flex-item3 {
+	align-items: flex-end;
+	background-color: rgb(71, 187, 255);
+    width: 10vw;
+	height: 15vh;
+}
+
