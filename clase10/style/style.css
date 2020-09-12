@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+h1:hover{
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    color:#00d4ff;
+}
+#transicion{
+    width:20vw;
+    height:5vh;
+    background: rgb(17, 0, 255);
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,151,228,1) 5%, rgba(36,40,76,1) 19%, rgba(9,9,121,1) 35%, rgba(8,40,142,1) 45%, rgba(7,53,150,1) 50%, rgba(6,78,166,1) 57%, rgba(63,71,107,1) 58%, rgba(7,64,157,1) 63%, rgba(7,56,152,1) 67%, rgba(6,79,167,1) 71%, rgba(2,153,216,1) 87%, rgba(2,162,222,1) 89%, rgba(0,212,255,1) 100%);
+}
+#transicion:hover{
+    transition:width 2s ease-in-out;
+    width:100%
+}
+.flex-container {
+	margin: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boton {
+	height: 10vh;
+	width: 20vw;
+	cursor: pointer; /* grab | text | help | move | zoom-in | zoom-out */
+	transition: 2s box-shadow ease-out;
+}
+.boton:hover {
+	background-color: black;
+	color: white;
+	font-size: 1.1rem;
+	transform: scale(1.2);
+	border: 1px;
+	box-shadow: 0px 5px 2px tomato;
+}
