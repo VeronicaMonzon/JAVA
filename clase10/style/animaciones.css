@@ -4,6 +4,11 @@
 	padding: 0;
 	font-family: 'Lobster', sans-serif;
 }
+h1 {
+	font-family: 'Lobster', sans serif;
+	text-align: center;
+	font-size: 3rem;
+}
 #divAnimado{
     animation: ejemplo 10s infinite;
 }

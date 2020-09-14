@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: violet;
+}
+h1 {
+	font-family: 'Lobster', sans serif;
+	text-align: center;
+	font-size: 3rem;
+}
+/* ----- Media Queries ----- */
+@media screen and (max-width: 400px) {
+	body {
+		background-color: red;
+	}
+}
+@media (min-width: 401px) and (max-width: 800px) {
+	body {
+		background-color: blue;
+	}
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+	body {
+		background-color: green;
+	}
+
+
+/* Extra small devices
+@media only screen and (max-width: 600px) {
+	...
+}
+
+Small devices  
+@media only screen and (min-width: 600px) {
+	...
+}
+
+Medium devices 
+@media only screen and (min-width: 768px) {	
+	...
+) 
+
+Large devices 
+@media only screen and (min-width: 992px) {
+	...
+}
+
+Extra large devices 
+@media only screen and (min-width: 1200px) {
+	...
+}*/

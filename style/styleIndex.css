@@ -10,6 +10,9 @@ header{
     text-align:center;
 
 }
+main{
+    height:70vh;
+}
 h1{
     margin-top: 0px;
     padding-top: 10px;
@@ -30,15 +33,29 @@ footer p{
 
 }
 ul{
+    height:50vh;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
 }
 ul li{
     list-style: none;
-    
+    background-color: rebeccapurple;
+    border-radius: 0.3em;
+    height: 2em;
+    width:10em;
+    padding-top: 0.5em;
+    display:flex;
+    justify-content: center;
+
 }
 a{
     text-decoration: none;
+    color:white;
+
+   
 }
 
 

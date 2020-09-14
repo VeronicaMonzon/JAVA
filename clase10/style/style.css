@@ -15,6 +15,35 @@ h1:hover{
     transition-timing-function: ease-in-out;
     color:#00d4ff;
 }
+nav{
+	background-color: rebeccapurple;
+	height:10vh;
+}
+ul{
+	height:10vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+ul li{
+	list-style: none;
+	margin-right: 20px;
+	
+}
+a{
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:white;
+	font-size:20px;
+}
+a:hover{
+	color:hotpink;
+}
+a:visited{
+	color:black;
+}
 #transicion{
     width:20vw;
     height:5vh;
@@ -44,4 +73,16 @@ h1:hover{
 	transform: scale(1.2);
 	border: 1px;
 	box-shadow: 0px 5px 2px tomato;
+}
+footer{
+	background-color: rebeccapurple;
+}
+footer p{
+	height:5vh;
+	color:white;
+	text-align:center;
+	padding-top:8px;
+}
+main{
+	height:70vh;
 }
