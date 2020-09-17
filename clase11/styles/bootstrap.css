@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* ----- Estilos Generales ----- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+}
+.container {
+    background-color: #FF599A;
+}
+.container-fluid {
+    background-color: #FF6B59;
+}
+.container-sm {
+    background-color: #FFBE59;
+}
+.container-md {
+    background-color: #EDFF59;
+}
+.container-lg {
+    background-color: #9AFF59;
+}
+.container-xl {
+    background-color: #6D59FF;
+}
+.padding {
+    width: 20vw;
+    height: 30vh;
+    background-color: tomato;
+}
