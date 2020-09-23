@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="styles.css" rel="stylesheet"/>
+        <link href="../img/logo.png" rel="icon" type="image/png"/>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet"/>
+        <title>
+            Modal
+        </title>
+    </head>
+    <body>
+        <header>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../clase12.html">Clase 12</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../button/index.html">Buttons</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../cards/index.html">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../carousel/index.html">Carousel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../collapse/index.html">Collapse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../dropdowns/index.html">Dropdowns</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../forms/index.html">Forms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../jumbotron/index.html">Jumbotron</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Modal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../navbar/index.html">NavBar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../progress/index.html">Progress</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../scrollspy/index.html">Spinners</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../tables/index.html">Tables</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../tooltips/index.html">Tooltips</a>
+                  </li>
+           
+              </ul>
+        </header>
+        <section class="container d-flex justify-content-center mt-5">
+            <!-- Button trigger modal -->
+            <button class="btn btn-primary" data-target="#exampleModal" data-toggle="modal" type="button">
+                Launch demo modal
+            </button>
+            <!-- Modal -->
+            <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Modal title
+                            </h5>
+                            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                <span aria-hidden="true">
+                                    ×
+                                </span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                Close
+                            </button>
+                            <button class="btn btn-primary" type="button">
+                                Save changes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+        </script>
+    </body>
+</html>

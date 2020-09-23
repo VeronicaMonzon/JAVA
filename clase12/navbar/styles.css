@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* ----- Estilos Generales ----- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: #452164;
+    height: 10vh;
+}
+.navbar a {
+    color: white!important;
+}
+.color {
+    background-color: white!important;
+}
+.color:hover {
+    background-color: #452164!important;
+    color: white!important;
+}
+.navbar-collapse {
+    background-color: #452164!important;
+}
+.navbar-toggler {
+    color: white!important;
+}

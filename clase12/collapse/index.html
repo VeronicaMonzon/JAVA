@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="styles.css" rel="stylesheet"/>
+        <link href="../img/logo.png" rel="icon" type="image/png"/>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet"/>
+        <title>
+            Collapse
+        </title>
+    </head>
+    <body>
+        <header>
+         
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../clase12.html">Clase 12</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../button/index.html">Buttons</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../cards/index.html">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../carousel/index.html">Carousel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Collapse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../dropdowns/index.html">Dropdowns</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../forms/index.html">Forms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../jumbotron/index.html">Jumbotron</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../modal/index.html">Modal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../navbar/index.html">NavBar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../progress/index.html">Progress</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../scrollspy/index.html">Spinners</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../tables/index.html">Tables</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../tooltips/index.html">Tooltips</a>
+                  </li>
+           
+              </ul>
+        </header>  
+    <div class="container">
+        <section class=" mt-5">
+            <p>
+                <a aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button">
+                    Link with href
+                </a>
+                <button aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-target="#collapseExample" data-toggle="collapse" type="button">
+                    Button with data-target
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+        </section>
+        <section >
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseOne" aria-expanded="true" class="btn btn-link btn-block text-left" data-target="#collapseOne" data-toggle="collapse" type="button">
+                                Collapsible Group Item #1
+                            </button>
+                        </h2>
+                    </div>
+                    <div aria-labelledby="headingOne" class="collapse show" data-parent="#accordionExample" id="collapseOne">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link btn-block text-left collapsed" data-target="#collapseTwo" data-toggle="collapse" type="button">
+                                Collapsible Group Item #2
+                            </button>
+                        </h2>
+                    </div>
+                    <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordionExample" id="collapseTwo">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link btn-block text-left collapsed" data-target="#collapseThree" data-toggle="collapse" type="button">
+                                Collapsible Group Item #3
+                            </button>
+                        </h2>
+                    </div>
+                    <div aria-labelledby="headingThree" class="collapse" data-parent="#accordionExample" id="collapseThree">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div> 
+        <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+        </script>
+    </body>
+</html>

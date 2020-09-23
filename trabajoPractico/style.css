@@ -1,17 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
-ul li{
-    list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;  
+}
+body{
+background-image: url(img/gradient.png);
+}
 
+.menu{
+    color:white;
+    text-decoration: none;   
+    margin-right: 15px; 
+    font-size: 20px;
+   
+    
 }
-#imagen1{
-    width:80vw;
-    height:50vh;
+.menu:hover{
+color:white;
 }
-div imagenes{
-    width:5vw;
-    height:10vh;
+h1,h2{
+    color:white;
+    font-weight: bold;
 }
-table, th, td{
-    border: solid black 1px;
-    color:orange;
+h1{
+   font-size: 3rem;
+}
+.name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
 }
