@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Secular+One&display=swap');
 *{
     font-family: 'Montserrat', sans-serif;  
 }
 body{
-background-image: url(img/gradient.png);
+background-image: url(img/background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
 }
 
 .menu{
-    color:white;
-    text-decoration: none;   
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(70, 5, 66) 1px 3px 5px;  
     margin-right: 15px; 
     font-size: 20px;
    
@@ -18,12 +22,17 @@ background-image: url(img/gradient.png);
 color:white;
 }
 h1,h2{
-    color:white;
+    font-family: 'Architects Daughter', cursive;
+    color:#655A7C;
     font-weight: bold;
+    text-shadow: thistle 2px 5px 5px;
 }
 h1{
-   font-size: 3rem;
+   font-size: 2rem;
 }
+h2{
+    font-size: 1.5em;
+ }
 .name{
     display:flex;
     justify-content: center;
