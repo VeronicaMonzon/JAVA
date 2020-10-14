@@ -9,8 +9,12 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <title>Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f8f3b93cc5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -28,9 +32,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item active ">
+              <a class="menu mr-2" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
             <li class="nav-item active">
+              
               <a class="menu mr-2" href="about.html"
-                >About <span class="sr-only">(current)</span></a
+                >About</a
               >
             </li>
             <li class="nav-item">
@@ -43,26 +51,25 @@
         </div>
       </nav>
     </header>
-    <section >
-      <div class="container-fluid inicio  d-flex flex-column justify-content-center">
-        <div class="row">
-          <div class="col-sm-11">
-            <div class="mr-4 text-right tracking-in-expand">
-              <h1>Verónica Monzón</h1>
-            </div>
-          </div>
-        </div>
+    <section>
+      <div
+        class="conteainer-fluid fondoContact"
+      >
         <div class="row ">
-          <div class="col-sm-11 pl-0">
-            <div
-              class="full-stack mr-4 full-stack d-flex justify-content-end align-items-center"
-            >
-              <h2>Full-Stack web Developer</h2>
+          <div class="col-sm-6 imagenContact d-flex align-items-center">
+              <h1 class="titulos text-right pr-5">Contact</h1>
+          </div>
+          <div class="col-sm-6 d-flex flex-column justify-content-center">
+            <h2>Mail:</h2>
+            <a id="mail" href="mailto:veronikmonzon@gmail.com">veronikmonzon@gmail.com</a>
+            <div class="mt-2">
+              <i class="fab fa-linkedin-in fa-2x mr-2"></i>
+              <i class="fab fa-github fa-2x"></i>
             </div>
+            
           </div>
         </div>
       </div>
-     
     </section>
 
     <script
