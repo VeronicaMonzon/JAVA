@@ -29,6 +29,9 @@ color:black;
 text-decoration: underline;
 text-decoration-color: rosybrown;
 }
+.navbar {
+   background-color: white;
+ }
 
 h1{
   font-weight: bold;
@@ -99,14 +102,7 @@ p{
   color:#FAF9E0;
 }
 /* Projects*/
-#headerProjects{
-  background-image: url(../img/headerbar.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height:10vh;
- 
-}
+
 .circulo{
   background-image: url(../img/block2.jpg);
   background-size: cover;
@@ -123,13 +119,10 @@ p{
   background-image: url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
+  height:100vh;
 }
-.imagenContact{
-  background-image: url(../img/pc1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:90vh;
+#contact{
+  height:100vh;
 }
 #mail{
   color:black;
@@ -146,10 +139,4 @@ p{
 }
 #projects{
   height:80vh;
-}
-@media screen and (max-width: 400px) {
-.imagenContact{
-  display: none;
- 
-}
 }
