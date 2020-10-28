@@ -105,13 +105,13 @@ p{
 
 .circulo{
   background-image: url(../img/block2.jpg);
-  background-size: cover;
-  width:50%;
-  height:50%;
+ height:150px;
+ width:150px;
 
 }
 .textoProjects{
   color:black;
+  font-size: 1em;
 }
 /*Contact */
 
