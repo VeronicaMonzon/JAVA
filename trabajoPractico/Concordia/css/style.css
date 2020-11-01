@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+  h2{
+    font-family: 'Caveat', cursive;
+  }
+  .carousel {
+    position: relative;
+}
+  .carousel-inner{
+    filter: brightness(0.4);
+}
+div .bg-success{
+  border-radius:7px;
+  box-shadow:5px 5px 5px rgb(88, 87, 87)
+}
+footer{
+  height:8vh;
+}
