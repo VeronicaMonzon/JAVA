@@ -57,5 +57,22 @@ a{
 
    
 }
+/* ----- Media Queries ----- */
+@media screen and (max-width: 414px) {
+   li{
+        margin-bottom: 1em;
+    }
+	footer {
+		display:none;
+	}
+}
+@media (min-width: 415px) and (max-width: 800px) {
+    li{
+        margin-bottom: 1em;
+    }
+	footer {
+		display: none;
+	}
+}
 
 
