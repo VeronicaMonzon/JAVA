@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue"></script> 
+    <title>Vue App</title>
+</head>
+<body>
+    <div id="app">
+        <span v-bind:title="message">
+            Mové tu mouse acá arriba y verás la hora de carga de esta página
+        </span>
+    </div>
+    <div id="app1">
+        <span v-if="seen">
+            Ahora me ves... porque soy true
+        </span>
+    </div>
+    <div id="app2">
+        <ol>
+            <li v-for="todo in todos">
+                {{todo.text}}
+            </li>
+        </ol>
+    </div>
+ <script src="js/vue.js">   
+ </script>    
+
+</body>
+</html>
